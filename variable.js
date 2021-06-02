@@ -4,9 +4,9 @@
 // 변수를 선언할 때나.... 등등 관련해서 나중에 문제가 발생할 수 있음
 'use strict';
 
-// 2. Variable
+// 2. Variable, rw(read/write)
 //  let : 변수 선언 시 사용 (ES6)
-// mutable 타입이라 함
+// mutable 타입이라 함 (all object type이 이에 속한다.)
 // application 마다 저장할 수 있는 공간 존재... memory
 // global 변수는 항상 메모리를 차지하고 있다... 적당히 쓰자!
 let globalName = 'global name';
@@ -26,8 +26,8 @@ console.log(globalName);
 // var (don't ever use this! 값을 선언하기도 전에 쓸 수 있기 때문이다!)
 // var hoisting (어디에서 선언했는지 상관없이 맨 위로 올라간다. 'use strict' 아래로..)
 
-// 3. const (한번 할당하면 값 변경 불가)
-// immutable 타입이라 함.
+// 3. const (한번 할당하면 값 변경 불가. read만 가능)
+// immutable 타입이라 함. (->primitive type이 이에 속한다)
 // - security
 // - thread safety
 // - reduce human mistakes
@@ -35,8 +35,8 @@ const daysInWeek = 7;
 const maxNumber = 5;
 
 // 4. variable types
-// primitive type : number(알아서 메모리 지정), string, boolean, null, symbol
-// object type
+// primitive type :값 자체가 메모리에 저장. number(알아서 메모리 지정), string, boolean, null, symbol
+// object type : object를 가리키는 ref가 메모리에 저장된다
 const count = 17;
 const size = 17.6;
 console.log(`value: ${count}, type: ${typeof count}` );
