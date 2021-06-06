@@ -1,3 +1,4 @@
+'use strict';
 // 1. String contenation
 console.log('my' + ' cat');
 console.log('1' + 2);
