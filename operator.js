@@ -57,7 +57,7 @@ console.log(`or: ${value1 || value2 || check()}`);
 
 // && (and), 처음에 false가 나오면 멈춘다.
 // and는 간편하게 null check에 사용가능하다. 
-console.log(`or: ${value1 && value2 && check()}`);
+console.log(`and: ${value1 && value2 && check()}`);
 // if (nullableObject != null){
 //     nullableObject.something;
 // }
