@@ -108,11 +108,13 @@
 	// -> 이런 다이나믹 성질 때문에 type으로 뒤통수를 맞아서... typescript가 나왔다!!
 	
 🍟 Function이란
+
 	• 작은 프로그램이라 한다. (sub-program)
 	• Parameter -> function -> return
 	• Input, output, function name 중요!
 
 🥣 class / object
+
 	• Class
 		○ Fields (요소들… 값들..)
 		○ Methods (함수들)
@@ -121,6 +123,7 @@
 			§ 이런 class는 이러이러한 data가 있어..
 		○ Declare once
 		○ No data in
+		
 	• Object
 		○ Instance of a class
 		○ Created many times
@@ -128,15 +131,12 @@
 		
 ![image](https://user-images.githubusercontent.com/47622991/121138697-eba1ab80-c872-11eb-8673-a7c61496075a.png)
 
-• Typescript의 input type (string), output type (number)
+	• Typescript의 input type (string), output type (number)
 
 
-붕어빵 : class -> 팥, 크림, 피자 등등 : object
+	* 붕어빵 : class -> 팥, 크림, 피자 등등 : object
 
-Class 안의 fields와 methods 들은 
-새로운 object를 만들 때마다,
-그대로 복제가 되어서 value만 
-우리가 지정된 걸로 변경되어진다!!
+	* Class 안의 fields와 methods 들은 새로운 object를 만들 때마다, 그대로 복제가 되어서 value만 우리가 지정된 걸로 변경되어진다!!
 
 
 
