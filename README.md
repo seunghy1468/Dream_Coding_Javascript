@@ -67,6 +67,79 @@
 ![image](https://user-images.githubusercontent.com/47622991/121138321-877ee780-c872-11eb-94b8-397c2eb3dfda.png)
 ![image](https://user-images.githubusercontent.com/47622991/121138338-8a79d800-c872-11eb-9661-0d34e206533e.png)
 
+🍪 변수
+
+	• Mutable : let, var (사용하지 않음)
+	• Immutable : const
+		○ Security
+		○ Thread safety
+		○ Reduce human mistakes
+	• Number
+		○ Type 지정 (자료형이 하나로 통일)
+		○ Infinity, -infinity, NaN
+		// DOM 요소를 js를 이용해서 position을 바꾸거나, 다양한 계산을 할 때,
+		// 정말 valid한 값인지 확인할 수 있다.
+		○ Boolean
+			§ False : 0, NaN, null, undefined, ' '
+				□ Null : x = null; 이라고 명확히 선언해주어야 함
+				□ Undefined : x; 변수에 value를 지정하지 않으면 됨
+			§ True : false 경우를 제외한 다른 value
+	• Symbol
+		○ 나중에 고유 식별자가 필요할 때 사용
+
+🍒 Dynamic typing
+
+	// 빠르게 프로토타입을 할 때, 굉장히 효과적!
+	// 그러나 다수의 엔지니어들과 규모가 있는 프로젝트를 할 때, 문제 발생할 수 있다.
+	
+	```
+	let text = 'hello';
+	console.log(text.charAt(0)); // h
+	console.log(`value: ${text}, type: ${typeof text}`);
+	text = 1;
+	console.log(`value: ${text}, type: ${typeof text}`);
+	text = '7' + 5;
+	console.log(`value: ${text}, type: ${typeof text}`);
+	text = '8' / '2';
+	console.log(`value: ${text}, type: ${typeof text}`);
+	console.log(text.charAt(0)); // error 발생!!
+	```
+	
+	// -> 이런 다이나믹 성질 때문에 type으로 뒤통수를 맞아서... typescript가 나왔다!!
+	
+🍟 Function이란
+	• 작은 프로그램이라 한다. (sub-program)
+	• Parameter -> function -> return
+	• Input, output, function name 중요!
+
+🥣 class / object
+	• Class
+		○ Fields (요소들… 값들..)
+		○ Methods (함수들)
+		○ 쇼핑몰을 만들거나 수강신청 프로그램을 만들 때, 어떻게 class를 정의하면 좋을 지 잘 생각해보자!
+		○ Template
+			§ 이런 class는 이러이러한 data가 있어..
+		○ Declare once
+		○ No data in
+	• Object
+		○ Instance of a class
+		○ Created many times
+		○ Data in
+		
+![image](https://user-images.githubusercontent.com/47622991/121138697-eba1ab80-c872-11eb-8673-a7c61496075a.png)
+
+• Typescript의 input type (string), output type (number)
+
+
+붕어빵 : class -> 팥, 크림, 피자 등등 : object
+
+Class 안의 fields와 methods 들은 
+새로운 object를 만들 때마다,
+그대로 복제가 되어서 value만 
+우리가 지정된 걸로 변경되어진다!!
+
+
+
 
 
 
