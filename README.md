@@ -31,7 +31,7 @@
 		○ 이를 해결하
 		○ 기 위해… -> body 끝 부분에 script tag를 넣는다.
 
-		![image](https://user-images.githubusercontent.com/47622991/121138173-66b69200-c872-11eb-924b-6d2c95758a40.png)
+![image](https://user-images.githubusercontent.com/47622991/121138173-66b69200-c872-11eb-924b-6d2c95758a40.png)
 
 
 	• Body 끝 script tag
@@ -39,7 +39,7 @@
 		○ 사용자가 빨리 웹 페이지를 볼 수 있다.
 		○ 그러나 웹사이트가 js에 많이 의존적이라면… js를 받아오는 시간을 기다려야 사용자가 제대로 사용할 수 있다.
 		
-		![image](https://user-images.githubusercontent.com/47622991/121138204-703ffa00-c872-11eb-90f0-f8aaf4ceb189.png)
+![image](https://user-images.githubusercontent.com/47622991/121138204-703ffa00-c872-11eb-90f0-f8aaf4ceb189.png)
 
 
 	• Head 안 async
@@ -49,7 +49,7 @@
 		○ 그러나 사용자가 여전히 웹 사이트를 보는데 시간이 걸린다.
 		○ 또한 js를 실행하려 할 때, 아직 html을 parsing 못한 부분이 남아있어서 위험요소!
 		
-		![image](https://user-images.githubusercontent.com/47622991/121138257-77ff9e80-c872-11eb-96af-d44e4878d9f2.png)
+![image](https://user-images.githubusercontent.com/47622991/121138257-77ff9e80-c872-11eb-96af-d44e4878d9f2.png)
 
 
 	• Head 안 defer
@@ -58,14 +58,14 @@
 		○ 이후 Parsing 끝나면 그 때, js를 실행한다!
 			§ 가장 좋은 옵션!!!
 			
-		![image](https://user-images.githubusercontent.com/47622991/121138275-7c2bbc00-c872-11eb-8f91-41db2e9fd355.png)
+![image](https://user-images.githubusercontent.com/47622991/121138275-7c2bbc00-c872-11eb-8f91-41db2e9fd355.png)
 
 
 	• 여러 script tag를 넣었을 때 비교
 		○ Defer 속성이 훨씬 효율적!!
 		
-		![image](https://user-images.githubusercontent.com/47622991/121138321-877ee780-c872-11eb-94b8-397c2eb3dfda.png)
-		![image](https://user-images.githubusercontent.com/47622991/121138338-8a79d800-c872-11eb-9661-0d34e206533e.png)
+![image](https://user-images.githubusercontent.com/47622991/121138321-877ee780-c872-11eb-94b8-397c2eb3dfda.png)
+![image](https://user-images.githubusercontent.com/47622991/121138338-8a79d800-c872-11eb-9661-0d34e206533e.png)
 
 
 
