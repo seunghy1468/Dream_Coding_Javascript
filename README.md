@@ -17,8 +17,6 @@
 
 	• Application Programming Interface (API)
 
-----------------------------------------
-
 🥣 Async vs Defer
 
 	• 브라우저가 HTML을 한 줄 씩 분석한다.
